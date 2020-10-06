@@ -7,5 +7,6 @@
 
 
 def score_input(test_name, test_score=0, invalid_message='Invalid test score, try again!'):
-    # return {test_name:test_score}
-    pass
+
+    # return {test_name: test_score}
+    return str(test_name) + ": " + str(test_score)

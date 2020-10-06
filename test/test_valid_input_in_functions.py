@@ -23,8 +23,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(score_input("Python test #1", ";'."), "Invalid test score, try again!")
 
     def test_score_input_invalid_message(self):
-        self.assertEqual(score_input("Python test #1"), 98, "INVALID TEST SCORE!!!!", "Python test #1: 98")
-        self.assertEqual(score_input("Python test #5"), 143, "INVALID TEST SCORE!!!!", "INVALID TEST SCORE!!!!")
+        self.assertEqual(score_input("Python test #1", 98, "INVALID TEST SCORE!!!!"), "Python test #1: 98")
+        self.assertEqual(score_input("Python test #5", 143, "INVALID TEST SCORE!!!!"), "INVALID TEST SCORE!!!!")
 
 
 if __name__ == '__main__':
