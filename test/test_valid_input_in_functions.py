@@ -2,7 +2,7 @@ import unittest
 from files.validate_input_in_functions import score_input
 
 
-class MyTestCase(unittest.TestCase):
+class MyTestCase1(unittest.TestCase):
     def test_score_input_test_name(self):
         self.assertEqual(score_input("Python test #1"), "Python test #1: 0")
 
